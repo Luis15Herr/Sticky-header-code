@@ -1,0 +1,50 @@
+*{
+	border-sizing:border-box;
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 90%;
+	margin: auto;
+	max-width: 1000px;
+	overflow: hidden;
+}
+/*Header Predeterminado*/
+header{
+	background-color: #030761;
+	padding: 20px;
+}
+
+header .content-logo{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .content-logo .logo{
+	font-size: 40px;
+	color: white;
+}
+
+header .content-logo .menu a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	padding: 0px 10px;
+}
+/*Sticky Header*/
+.header2{
+	width: 100%;
+	height:auto; 
+	position: fixed;
+	padding: 10px;
+}
+
+.header2 .content-logo .logo{
+	font-size: 35px;
+}
+
+/*resto de la Pagina*/
+article p{
+	margin-bottom: 1em;
+}
